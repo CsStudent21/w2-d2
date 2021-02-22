@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-main {
+/* main {
     position:sticky;
     width:800px;
     height:380px;
@@ -12,6 +12,20 @@ main {
     margin: 1rem;
     border: 1rem;
 } 
+
+*/
+
+/* Main 2 */
+main {
+    position: relative;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:800px;
+    height:380px;
+}
 
 h3 {
     margin: 0px;
@@ -51,7 +65,7 @@ h3 {
 
 .hide {
     display: none;
-    transition: 1s;
+    transition: 1s ease-out 0.1s;
   }
 
 #chat_text:hover .hide {
@@ -62,13 +76,13 @@ h3 {
     border: 0rem;
     position:relative;
     top:30px;
-    right:-30px;
+    right:363px;
   }
 
   .arrow-right {
     position: absolute;
-    top:50px;
-    left: 625px;
+    top:30px;
+    left: 610px;
     width: 0; 
     height: 0;
     padding:0px;
@@ -125,13 +139,13 @@ h3 {
     border: 0rem;
     position:relative;
     top: 30px;
-    right: -164px;
+    right: -150px;
   }
 
   .arrow-left2 {
     position: absolute;
-    top:162px;
-    left: 190px;
+    top:150px;
+    left: 171px;
     width: 0; 
     height: 0;
     padding:0px;
@@ -192,8 +206,8 @@ h3 {
 
   .arrow-right3 {
     position: absolute;
-    top:280px;
-    left: 640px;
+    top:262px;
+    left: 625px;
     width: 0; 
     height: 0;
     padding:0px;
